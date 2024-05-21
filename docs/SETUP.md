@@ -14,7 +14,14 @@ This is a guide on using this repo.
   - `build`: Use Vite to build React into `dist/client`. If you don't run build, you cannot serve anything in dev / production modes.
   - `start`: Run in production mode. Please run `npm run build` before to compile client side.
 
-- [ ] Running App
+- Running the Site
 
   - In your terminal window, run `npm run ngrok` to create a ngrok instance if you haven't already.
   - In another terminal window (preferrably in your IDE), `npm run dev` or `npm run start` depending on how you want to test your app.
+
+- Deploying the Site
+  - Create a Netlify account
+    - Add a new site (import from existing)
+    - Deploy From Github 
+    - In the Deploy Settings the defaults should work 
+      - Ensure the Publish directory is set to "build/client"
