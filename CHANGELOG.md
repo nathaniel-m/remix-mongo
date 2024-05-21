@@ -13,6 +13,9 @@ Changelog
 
 ## Changes
 
+### 0.0.3 (May 21, 2024)
+
+* [FEATURE] Added support for Tailwindcss
 
 ### 0.0.2 (April 19, 2024)
 
