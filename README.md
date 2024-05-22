@@ -6,6 +6,7 @@ This is a starter tamplate for remix apps using vite.
 
 - [Remix](https://remix.run/docs) 
 - [Remix - Vite](https://remix.run/docs/en/main/future/vite) 
+- [Preline](https://preline.co/) - For Design
 
 
 ## Setup

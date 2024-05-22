@@ -13,6 +13,10 @@ Changelog
 
 ## Changes
 
+### 0.0.4 (May 22, 2024)
+
+* [UI] Used [Preline](https://preline.co/)  Template and Compents for the the index page design 
+
 ### 0.0.3 (May 21, 2024)
 
 * [FEATURE] Added support for Tailwindcss
