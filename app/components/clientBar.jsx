@@ -1,7 +1,7 @@
 
 function ClientBar() {
     return (
-        <div className="px-4 lg:px-6 lg:px-8">
+        <div className="px-4 lg:px-8">
             <div className="relative py-6 md:py-10 overflow-hidden border-b border-gray-200 dark:border-neutral-700 before:absolute before:top-0 before:start-0 before:z-10 before:w-20 before:h-full before:bg-gradient-to-r before:from-white before:to-transparent after:absolute after:top-0 after:end-0 after:w-20 after:h-full after:bg-gradient-to-l after:from-white after:to-transparent dark:before:from-neutral-900 dark:after:from-neutral-900">
                 <div className="flex justify-between items-center gap-x-4">
                     <svg className="w-14 md:w-20 h-auto text-black mx-auto dark:text-white" enableBackground="new 0 0 2499 614" viewBox="0 0 2499 614" xmlns="http://www.w3.org/2000/svg">

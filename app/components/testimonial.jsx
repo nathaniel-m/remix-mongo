@@ -1,7 +1,7 @@
 function Testamonial() {
     return (
         <div className="bg-black">
-            <div className="max-w-7xl px-4 lg:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
+            <div className="max-w-7xl px-4 lg:px-8 py-12 lg:py-24 mx-auto">
                 <blockquote className="max-w-4xl mx-auto">
                     <p className="mb-6 md:text-lg">
                         <span className="font-semibold text-lime-400">Philip,</span> <span className="text-neutral-500">CEO at Day Spa</span>
