@@ -6,7 +6,9 @@ import Features from "../components/features";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Hero from "../components/hero";
+import HeroAlt from "../components/heroAlt";
 import Testamonial from "../components/testimonial";
+import ProductImage from "../components/product-image";
 
 export const meta = () => {
   return [
@@ -20,6 +22,12 @@ export default function Index() {
     <>
       <Header />
       <main id="content">
+        <HeroAlt />
+        <ProductImage
+          LightImageSrc={"/dashboard-lt.jpg"}
+          DarkImageSrc={"/dashboard-dk.jpg"}
+          ImageAlt={"Detective FAQ screen shot"}
+        />
         <Hero />
         <ClientBar />
         <Features />
