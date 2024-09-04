@@ -13,6 +13,12 @@ Changelog
 
 ## Changes
 
+### 0.0.6 (September 4, 2024)
+
+* [FEATURE] Added support for HeroIcons
+* [FEATURE] Added cta section
+* [FEATURE] Added features section
+
 ### 0.0.5 (September 3, 2024)
 
 * [UI] Removed neutral tag from theme color, replaced with gray. removed lime tag from theme color 

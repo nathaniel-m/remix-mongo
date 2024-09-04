@@ -1,6 +1,8 @@
 import CardGrid from "../components/cardGrid";
 import ClientBar from "../components/clientBar";
 import Contact from "../components/contact";
+import Cta from "../components/cta";
+import Features from "../components/features";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Hero from "../components/hero";
@@ -20,8 +22,10 @@ export default function Index() {
       <main id="content">
         <Hero />
         <ClientBar />
-        <CardGrid />
+        <Features />
         <Testamonial />
+        <Cta />
+        <CardGrid />
         <Contact />
       </main>
       <Footer />

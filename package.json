@@ -11,6 +11,7 @@
     "start": "netlify serve"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@netlify/functions": "^2.7.0",
     "@netlify/remix-adapter": "^2.3.2",
     "@remix-run/node": "^2.8.1",
