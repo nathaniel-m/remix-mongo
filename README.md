@@ -1,6 +1,6 @@
 # Remix + Vite
 
-This is a starter tamplate for remix apps using vite. 
+This is a starter template for remix apps using vite. 
 
 ## Tech Stack
 

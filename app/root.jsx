@@ -16,7 +16,7 @@ export function Layout({ children }) {
         <Meta />
         <Links />
       </head>
-      <body className="dark:bg-neutral-900">
+      <body className="dark:bg-gray-900">
         {children}
         <ScrollRestoration />
         <Scripts />

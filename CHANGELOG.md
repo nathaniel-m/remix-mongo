@@ -13,6 +13,10 @@ Changelog
 
 ## Changes
 
+### 0.0.5 (September 3, 2024)
+
+* [UI] Removed neutral tag from theme color, replaced with gray. removed lime tag from theme color 
+
 ### 0.0.4 (May 22, 2024)
 
 * [UI] Used [Preline](https://preline.co/)  Template and Compents for the the index page design 
