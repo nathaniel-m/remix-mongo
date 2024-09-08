@@ -22,12 +22,12 @@ export default function Index() {
     <>
       <Header />
       <main id="content">
-        <HeroAlt />
-        <ProductImage
+        {/* <HeroAlt /> */}
+        {/* <ProductImage
           LightImageSrc={"/dashboard-lt.jpg"}
           DarkImageSrc={"/dashboard-dk.jpg"}
           ImageAlt={"Detective FAQ screen shot"}
-        />
+        /> */}
         <Hero />
         <ClientBar />
         <Features />

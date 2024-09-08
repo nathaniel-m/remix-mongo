@@ -11,36 +11,30 @@ export default function Cta({ ctabutton_url, ctabutton_text }) {
           </span>
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-          <div className="inline-flex rounded-md">
-     
-              <a
-              href={ctabutton_url}
-                className="
-                uppercase 
-                tracking-wide 
-                mx-auto
-                px-8 
-                py-3
-                md:py-4   
-                w-full
-                xl:w-full
-                flex 
-                items-center 
-                justify-center 
-                text-lg 
-                font-medium 
-                rounded-3xl 
-                text-white 
-                bg-500
-                hover:bg-700 
-                hover:text-white 
-                md:text-2xl 
-                md:px-10"
-              >
-                {ctabutton_text}
-              </a>
-            
-          </div>
+        <button type="button" className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white">
+                            <img
+                                className="hidden dark:block h-14"
+                                src={"/apple-download-dk.svg"}
+                                alt="apple store download"
+                            />
+                            <img
+                                className="block dark:hidden h-14"
+                                src={"/apple-download-lt.svg"}
+                                alt="apple store download"
+                            />
+                        </button>
+                        <button type="button" className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white">
+                            <img
+                                className="hidden dark:block h-14"
+                                src={"/google-download-dk.svg"}
+                                alt="google play download"
+                            />
+                            <img
+                                className="block dark:hidden h-14"
+                                src={"/google-download-lt.svg"}
+                                alt="google play download"
+                            />
+                        </button>
         </div>
       </div>
     </div>
